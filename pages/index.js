@@ -33,7 +33,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
 
-      <header>
+      <header className="hidden md:block">
         <h1 className="sr-only">Kindly</h1>
       </header>
 
