@@ -37,27 +37,31 @@ export default function Home() {
         <h1 className="sr-only">Kindly</h1>
       </header>
 
-      <main className="max-w-3xl mx-auto text-dark">
-        <img src="/logo.svg" alt="Kindly" className="h-24 w-auto mx-auto" />
+      <main className="max-w-3xl px-8 mx-auto text-dark">
+        <img
+          src="/logo.svg"
+          alt="Kindly"
+          className="h-16 md:h-24 w-auto mx-auto"
+        />
 
-        <h2 className="text-6xl mt-8 text-center font-bold">
-          <span className="text-light">Become the driving force</span> <br />{" "}
-          <span>for a better future.</span>
+        <h2 className="text-4xl md:text-6xl mt-8 text-center font-bold">
+          <span className="text-light">Become the driving force</span>{" "}
+          <br className="hidden" /> <span>for a better future.</span>
         </h2>
 
-        <p className="mt-16 text-center text-xl">
+        <p className="mt-8 md:mt-16 text-center md:text-xl">
           Kindly visualises of the impact charities and organisations are
           contributing around Melbourne. A place where people can see the kind
           of impact that their donations can make, and how to contribute to a
           better, brighter future for us all.
         </p>
 
-        <div className="border rounded-lg p-8 mt-24 grid grid-cols-2 items-center space-x-8">
+        <div className="rounded-lg p-8 mt-8 md:mt-24 grid grid-cols-1 md:grid-cols-2 items-center md:space-x-8 text-center md:text-left">
           <p>Sign up now to be notified when we launch our platform.</p>
           <form
             action="#"
             method="post"
-            className="mt-1 relative rounded-md shadow-sm"
+            className="w-full mt-4 md:mt-0 relative rounded-md shadow-sm"
           >
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
               <MailIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -73,7 +77,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="text-right text-dark text-sm">
+      <footer className="text-right text-dark text-sm pr-8 xl:pr-0">
         Created with ❣️ by{" "}
         <a href="https://twitter.com/@thedannyferg">@thedannyferg</a>
       </footer>
